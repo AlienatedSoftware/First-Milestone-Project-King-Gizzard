@@ -1,45 +1,98 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# King Gizzard and the Lizard Wizard
 
-Welcome USER_NAME,
+_Have Mock Up Here_
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+_Link to webpage underneath_
 
-## Gitpod Reminders
+## Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+_Ordered List of the content listed Here_
 
-`python3 -m http.server`
+## Introduction
 
-A blue button should appear to click: *Make Public*,
+Project - User-Centric Frontend Development - Code Institute
 
-Another blue button should appear to click: *Open Browser*.
+This project will act as the home for the music band - King Gizzard and the Lizard Wizard. Its focus of the website is to target fans and potentional fans to learn relevent information about the band, to introduce them to their music and members.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+King Gizzard and the Lizard Wizard, commonly called - "Gizzard" (King Gizz, The Gizz) for short, are an Australian rock band formed in 2010. The band consists of Stu Mackenzie (vocals, guitar, bass, keyboards, flute), Ambrose Kenny-Smith (vocals, harmonica, keyboards), Cook Craig (guitar, bass, keyboards, vocals), Joey Walker (guitar, bass, keyboards, vocals), Lucas Harwood (bass, keyboards), Michael Cavanagh (drums, percussion), and Eric Moore (ex-drummer).
+They built their fame for their explict use of exploring multiple genres, and their lighting energetic live shows. 
+Having released 17 albums since they formed, and released 5 albums in a single year back in 2017. Gizzard sure knows how to deliever to their fans with over the top musicical entertainment.
 
-A blue button should appear to click: *Make Public*,
+The propose behind this project is to help build reputation for the band and increase its fanbase. Highlighting their achievements and act as a selling point for their merch and tickets for their tours/gigs.
 
-Another blue button should appear to click: *Open Browser*.
+This is my first of four Milestone Porjects that I must complete during the Full Stack Development Porgram over at Code Institute.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The primarialy requirements for this milestone is to make a static front end website using **HTML** and **CSS** with the _optional_ use of **Bootstrap** Frameworks.
 
-## Updates Since The Instructional Video
+## UX
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Ideal User Demographic
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The ideal users of this website are:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+*Passionare music lovers
+*Potentional fans
+*Current fans
+*Event bookers
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### User Stories
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Music lovers / New fans
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+1. As a music lover / new fan, I want to explore the art of music and discover the content of Gizzard.
+2. As a music lover / new fan, I want to be able to easily navigate through the website to be able to find relevant content.
+3. As a music lover / new fan, I want to be able to learn more about this partiular band, their members and where they originated.
+4. As a music lover / new fan, I want to connect through their social links in order to keep up with their latest and upcoming projects, as well as their day-to-day life.
+5. As a music lover / new fan, I want to be able to explore their music, by listening to some of their songs.
+6. As a music lover / new fan, I want to be able to watch them play live performances and music videos that are embedded onto the site.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Current fans
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+1. As a current fan, I want to easily be able to find information about their upcoming live events and gigs, in order to secure tickets online.
+2. As a current fan, I want to find out news for their new and upcoming releases to be able to pre-order online for a platform of my choice.
+3. As a current fan, I want to be able to navigate through their music to listen and enjoy their content.
 
---------
+#### Event bookers
 
-Happy coding!
+1. As an event booker, I want easily be able to navigate the band's upcoming event details.
+2. As an event booker, I want  be able to securely book tickets online with a payment method of my choice.
+
+### Strategy
+
+#### User Needs
+
+_Discuss what the user needs from the site_
+
+#### Technical Capabilities
+
+_Speak about what the project are capible of doing with the technolgies used_
+
+#### Business Vision
+
+_Mention about the purpose and benefits of the band from users using this site_
+
+### Scope
+
+_Unordered lists on content and functionality requirements._
+
+### Structure
+
+_Talk about how this project is strutured, preferbly a visual representation of the structure._
+
+### Skeleton
+
+_Link Latest Wireframes_
+
+_Link First Wires_
+
+## Features
+
+_go over the different parts of my project and describe each section_
+
+## Technology used
+
+## Testing
+
+## Bugs
+
+## Credits
