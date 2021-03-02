@@ -1,0 +1,46 @@
+/*-----------------------------------Navigation-----------------------------------*/
+
+.bg-purple {
+    background-color: #8A4F7D;
+}
+
+
+
+
+/*-----------------------------------Footer-----------------------------------*/
+
+footer {
+    height: 60px;
+    background-color: #0C1C1A;
+    color: #fff;
+}
+
+.social-networks {
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  width: 120px;
+  margin-top: 16px;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 125%;
+  margin: 1%;
+  padding: 0;
+  color: #fff;
+}
+
+.footer-copyright {
+    float: left;
+    margin: 16px;
+    width: auto;
+}
+
+.footer-socials {
+    float: right;
+}
