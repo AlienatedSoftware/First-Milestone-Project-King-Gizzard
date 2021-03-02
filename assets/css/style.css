@@ -4,7 +4,9 @@
     background-color: #8A4F7D;
 }
 
-
+.navbar-toggler {
+    margin-right: 15px;
+}
 
 
 /*-----------------------------------Footer-----------------------------------*/
