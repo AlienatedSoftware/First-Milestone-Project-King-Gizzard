@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=RocknRoll+One&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', 'RocknRoll One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------Font-----------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 /*-----------------------------------Navigation-----------------------------------*/
 
 .bg-purple {
@@ -8,6 +29,46 @@
     margin-right: 15px;
 }
 
+.navbar-nav {
+    float: right;
+    margin-right: 15px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #FDDF00;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FDDF00;
+}
+
+/*-----------------------------------Main Section 1 Home Carousel-----------------------------------*/
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/*-----------------------------------Main Section 2 About Us-----------------------------------*/
+
+#homepageTitle {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#homepageTitle, #homepageAboutUs {
+    color: #FDDF00;
+    text-align: center;
+    margin: 0;
+}
+
+#homepageAboutUs {
+    padding-bottom: 15px;
+}
 
 /*-----------------------------------Footer-----------------------------------*/
 
@@ -31,13 +92,14 @@ footer {
 }
 
 .social-networks i {
-  font-size: 125%;
+  font-size: 100%;
   margin: 1%;
   padding: 0;
   color: #fff;
 }
 
 .footer-copyright {
+    position: absolute;
     float: left;
     margin: 16px;
     width: auto;
@@ -45,4 +107,23 @@ footer {
 
 .footer-socials {
     float: right;
+}
+
+/*-----------------------------------Media Queries-----------------------------------*/
+
+@media (max-width: 768px) {
+
+    .main-section-2 p {
+        font-size: 3vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .main-section-2 p {
+        font-size: 4vw;
+        line-height: 1.4;
+    }
+
 }
