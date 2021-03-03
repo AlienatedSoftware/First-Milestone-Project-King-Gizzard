@@ -60,14 +60,42 @@ p {
     padding: 10px;
 }
 
-#homepageTitle, #homepageAboutUs {
+#homepageTitle, .homepageAboutUs {
     color: #FDDF00;
     text-align: center;
     margin: 0;
 }
 
-#homepageAboutUs {
-    padding-bottom: 15px;
+.homepageAboutUs {
+    padding-bottom: 0px;
+
+}
+
+.AwardList {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FDDF00;
+    margin-bottom: 0;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#TheMembers {
+    text-align: center;
+    color: #FDDF00;
+    margin-bottom: 0;
+    text-decoration: wavy underline;
+}
+
+.band-image {
+    text-align: center;
+}
+
+.blockquote-footer {
+    border-radius: 15px 50px 30px;
+    background-color: #FDDF00;
+    color: #8A4F7D;
+    margin: 0;
 }
 
 /*-----------------------------------Footer-----------------------------------*/
@@ -113,7 +141,7 @@ footer {
 
 @media (max-width: 768px) {
 
-    .main-section-2 p {
+    .main-section-2 p ul {
         font-size: 3vw;
     }
 
@@ -121,7 +149,7 @@ footer {
 
 @media (max-width: 480px) {
 
-    .main-section-2 p {
+    .main-section-2 p ul {
         font-size: 4vw;
         line-height: 1.4;
     }
