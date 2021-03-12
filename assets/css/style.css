@@ -60,6 +60,12 @@ p {
     color: #FDDF00;
 }
 
+.alert-container {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
 /*-----------------------------------Main Section 1 Home Carousel-----------------------------------*/
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -133,7 +139,7 @@ p {
 .callout-container {
     height: 100vh;
 
-    background: url(assets/images/concert.jpeg) no-repeat bottom right fixed;
+    background: url(/assets/images/concert.jpeg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,11 +149,6 @@ p {
     align-items: center;
     justify-content: center;
 
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    z-index: -1;
 }
 
 .jumbotron h1 {
