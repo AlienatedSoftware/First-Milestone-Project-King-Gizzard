@@ -80,7 +80,6 @@ p {
 /*-----------------------------------Main Section 2 About Us-----------------------------------*/
 
 #homepageTitle {
-    text-decoration: underline;
     padding: 10px;
 }
 
@@ -94,18 +93,22 @@ p {
 
 }
 
+.awards {
+    padding: 14px;
+}
+
 .AwardList {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 0;
     list-style-position: inside;
+    list-style-type: none;
     padding-left: 0;
 }
 
 #TheMembers {
     text-align: center;
     margin-bottom: 0;
-    text-decoration: underline;
     padding-top: 48px;
 }
 
