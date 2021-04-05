@@ -96,18 +96,59 @@
 
     <!--Booking Modal-->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog  modal-dialog-centered">
             <div class="modal-content">
+            <!--Modal Header-->
             <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">Bookings</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <!--Modal Body-->
             <div class="modal-body">
-                ...
+                <div>
+                    <label for="InputEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="InputEmail">
+                </div>
+                <div class="mt-3">
+                    <label for="InputPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="InputPassword" aria-describedby="passwordHelp">
+                    <div id="passwordHelp" class="form-text">
+                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces or special characters.
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <select class="form-select" aria-label="selectTickets" aria-describedby="ticketHelp">
+                        <option selected>Select Tour</option>
+                        <option value="1">Adelaide, Australia</option>
+                        <option value="2">Fremantle, Australia</option>
+                        <option value="3">Newtown, Australia</option>
+                        <option value="4">Paris, France</option>
+                    </select>
+                    <div id="ticketHelp" class="form-text">
+                        Upto 4 tickets only available per booking.
+                    </div>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                    <label class="form-check-label" for="inlineRadio4">4</label>
+                </div>
             </div>
+            <!--Modal Footer-->
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Book!</button>
             </div>
             </div>
         </div>
