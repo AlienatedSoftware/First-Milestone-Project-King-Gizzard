@@ -1,7 +1,5 @@
 # King Gizzard and the Lizard Wizard
 
-_Have Mock Up Here_
-
 _Link to webpage underneath_
 
 ## Table of Contents
@@ -144,9 +142,7 @@ _Talk about how this project is strutured, preferbly a visual representation of 
 
 #### Skeleton
 
-_Link Latest Wireframes_
-
-_Link First Wires_
+![Wireframe](assets/images/readme/wireframe.PNG "Wireframe")
 
 ###  Design
 
@@ -219,7 +215,7 @@ All imagery provides alternative text to be used in the event that the element c
      - Git was used for version control by utilising the GitPod terminal to commit to Git and push to GitHub.
 - [GitHub](https://github.com/ "Link to GitHub")
      - GitHub was used to store the project after pushing
-- [Figma](https://www.figma.com/ "Link to Figma homepage")
+- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
      - Figma was used to create the wireframes during the design phase of the project.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
@@ -228,9 +224,15 @@ All imagery provides alternative text to be used in the event that the element c
 
 Google developer tools was used manually to check and test the live project on all different screen sizes. Used multiple devices and feedback from family & friends who went to the deployed site on their devices.
 
-## Bugs
+## Issues and Bugs
 
-_All known bugs will be displayed here._
+**Navbar Bugs**
+- Burger Button - Upon first implementing the "burger button" to have the navbar links collaspe into a single button for smaller devices. There was a bug that when users first opened the burger button to reveal all the nav links, the button would no longer close/collaspe. To address this issue, I had to delete a line of code as I linked an extra CDN for bootstrap which caused an interruption with the bootstrap package. 
+
+- Fixed Position - There was an issue upon trying to have the Navbar have a fixed position so it will always remain on top of the screen no matter how far the user scrolls down. Implementing the fixed position using bootstrap meant that I had to use additional CSS to prevent the body of the website from being cropped/hidden by the navbar as the navbar would act as it if was sat on top of the content, rather than on top. Doing this required to add a padding-top by the number of pixels that the navbar is, in this case, 100px.
+
+**Tour Page**
+- Callout Sector - When this was implemented onto the site, the developer ran into an issue where the callout appeared on top of everything on the page, including the navbar. Completely eating the whole page. z-index was used to counter this issue, and allowed the callback to be set back behind the navbar, exactly how it should be. Hoever this caused another issue that caused the callout to be unclickable. This was because in the CSS, the absolute value was being used, which removes element from the DOM completely in terms of the normal flow. Removing the position: absolute from the CSS attributes fixed this issue entirely.
 
 ## Credits
 
