@@ -20,7 +20,8 @@
                     <div class="row d-none d-sm-block">
                         <div class="col-12">
                             <div class="site-wide-alert alert alert-warning text-center">
-                                <strong>Sale Now On!</strong> Get a years worth of tours at a discounted price. <a href="#">See here for details!</a>
+                                <strong>Sale Now On!</strong> Get a years worth of tours at a discounted price. 
+                                <a data-bs-toggle="modal" data-bs-target="#detailModal" href="#detailModal">See here for details!</a>
                             </div>
                         </div>
                     </div>
@@ -93,6 +94,25 @@
             </div>
         </div>
     </div>
+
+    <!--Details Modal-->
+    <div class="modal fade" id="detailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="detailModalLabel">Gizzard Year Tour</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              The Gizzard Tour package includes 4 tours worth of Gizzard, spread throughout the year to always keep you energised and uplifted with their music.
+              Selecting this package will result you in getting your tickets for the price of 3! Scroll down and sign up today, or book any single tour ticket of your choice.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!--SignUp Modal-->
     <div class="modal fade" id="staticSignup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticSignupLabel" aria-hidden="true">
