@@ -135,6 +135,11 @@ p {
     text-align: center;
 }
 
+iframe {
+    border: none;
+    background-color: transparent;
+}
+
 /*-----------------------------------Gizzverse-----------------------------------*/
 
 .gizzverse-padding {
