@@ -1,6 +1,8 @@
 # King Gizzard and the Lizard Wizard
 
-_Link to webpage underneath_
+![Mockup](assets/images/readme/responsive.PNG "Mockup")
+
+https://alienatedsoftware.github.io/First-Milestone-Project-King-Gizzard/
 
 ## Table of Contents
 
@@ -136,11 +138,7 @@ A scope was defined in order to clearly identify what needed to be done in order
                - Pre-save or save new music releases
           - Contact the artist directly through their chosen channel of communication
 
-#### Structure
-
-_Talk about how this project is strutured, preferbly a visual representation of the structure._
-
-#### Skeleton
+#### Wireframe
 
 ![Wireframe](assets/images/readme/wireframe.PNG "Wireframe")
 
@@ -158,6 +156,8 @@ The pairing of the fonts [Roboto Condensed](https://fonts.google.com/specimen/Ro
 The imagery is picked carefully to really capture the electric scene of the band. 
 
 All imagery provides alternative text to be used in the event that the element cannot be rendered.
+
+All copyright credit goes to King Gizzard and their labels. See [credits](#Credits)
 
 [Back to top](#King-Gizzard-and-the-Lizard-Wizard)
 
@@ -191,7 +191,7 @@ All imagery provides alternative text to be used in the event that the element c
 - Callout Card, promoting users to sign up for an exclusive band deal for a discounted price on tour package. 
 - Nav alert pop-up on medium devices or larger only. To help promote the exclusive deal on a tour package. Not viewable on smaller devices. 
 - Multiple modal pop-ups for sign-ups and event booking.
-- Responsive upcoming events section, which displays upto 4 future events on large screens, but then cuts down to one on the small device, only displaying the next upcoming event.
+- Responsive upcoming events section, which displays upto 4 future events on large screens, but then cuts down to one on the small device, only displaying the next upcoming event. This crops out an event to fit the screen depending on the screen size. 
 
 ### Footer
 
@@ -216,11 +216,13 @@ All imagery provides alternative text to be used in the event that the element c
 - [GitHub](https://github.com/ "Link to GitHub")
      - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
-     - Figma was used to create the wireframes during the design phase of the project.
+     - Ba;samiq was used to create the wireframes during the design phase of the project.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
 ## Testing
+
+Based on the User Stories above, all users will be able to follow the flow of the website to find what they came for according to their stories. However they won't be able to actually fully book a ticket for their tours. This is just a milestone project, not an official website of the band.
 
 Google developer tools was used manually to check and test the live project on all different screen sizes. Used multiple devices and feedback from family & friends who went to the deployed site on their devices.
 
