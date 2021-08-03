@@ -13,21 +13,11 @@ https://alienatedsoftware.github.io/First-Milestone-Project-King-Gizzard/
     3. [Development Planes](#Development-Planes)
     4. [Design](#Design)
 3. [Features](#Features)
-    1. [Design Features](#Design-Features) 
-    2. [Existing Features](#Existing-Features)
-    3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
 4. [Issues and Bugs](#Issues-and-Bugs)
 5. [Technologies Used](#Technologies-Used)
-     1. [Main Languages Used](#Main-Languages-Used)
-     2. [Additional Languages Used](#Additional-Languages-Used)
-     3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 6. [Testing](#Testing)
-     1. [Testing.md](TESTING.md)
 7. [Deployment](#Deployment)
 8. [Credits](#Credits)
-     1. [Content](#Content)
-     2. [Media](#Media)
-     3. [Code](#Code)
 ***
 
 ## Introduction
@@ -204,7 +194,7 @@ All copyright credit goes to King Gizzard and their labels. See [credits](#Credi
 [Back to top](#King-Gizzard-and-the-Lizard-Wizard)
 ***
 
-## Technology used
+## Technologies Used
 
 ### Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
