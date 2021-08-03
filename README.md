@@ -23,7 +23,8 @@ https://alienatedsoftware.github.io/First-Milestone-Project-King-Gizzard/
      3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 6. [Testing](#Testing)
      1. [Testing.md](TESTING.md)
-7. [Credits](#Credits)
+7. [Deployment](#Deployment)
+8. [Credits](#Credits)
      1. [Content](#Content)
      2. [Media](#Media)
      3. [Code](#Code)
@@ -46,6 +47,7 @@ This is my first of four Milestone Porjects that I must complete during the Full
 The primarialy requirements for this milestone is to make a static front end website using **HTML** and **CSS** with the _optional_ use of **Bootstrap** Frameworks.
 
 [Back to top](#King-Gizzard-and-the-Lizard-Wizard)
+***
 
 ## UX
 
@@ -160,6 +162,7 @@ All imagery provides alternative text to be used in the event that the element c
 All copyright credit goes to King Gizzard and their labels. See [credits](#Credits)
 
 [Back to top](#King-Gizzard-and-the-Lizard-Wizard)
+***
 
 ## Features
 
@@ -198,6 +201,9 @@ All copyright credit goes to King Gizzard and their labels. See [credits](#Credi
 - Responsive copyright text, which crops on smaller devices. But expands on larger devices. Going from "Copyright © 2021 King Gizzard and the Lizard Wizard. All Rights Reserved" to "Copyright © 2021 K.G.".
 - Social media icons which will link to the bands socials. 
 
+[Back to top](#King-Gizzard-and-the-Lizard-Wizard)
+***
+
 ## Technology used
 
 ### Languages Used
@@ -220,11 +226,17 @@ All copyright credit goes to King Gizzard and their labels. See [credits](#Credi
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
+[Back to top](#King-Gizzard-and-the-Lizard-Wizard)
+***
+
 ## Testing
 
 Based on the User Stories above, all users will be able to follow the flow of the website to find what they came for according to their stories. However they won't be able to actually fully book a ticket for their tours. This is just a milestone project, not an official website of the band.
 
 Google developer tools was used manually to check and test the live project on all different screen sizes. Used multiple devices and feedback from family & friends who went to the deployed site on their devices.
+
+[Back to top](#King-Gizzard-and-the-Lizard-Wizard)
+***
 
 ## Issues and Bugs
 
@@ -235,6 +247,35 @@ Google developer tools was used manually to check and test the live project on a
 
 **Tour Page**
 - Callout Sector - When this was implemented onto the site, the developer ran into an issue where the callout appeared on top of everything on the page, including the navbar. Completely eating the whole page. z-index was used to counter this issue, and allowed the callback to be set back behind the navbar, exactly how it should be. Hoever this caused another issue that caused the callout to be unclickable. This was because in the CSS, the absolute value was being used, which removes element from the DOM completely in terms of the normal flow. Removing the position: absolute from the CSS attributes fixed this issue entirely.
+
+[Back to top](#King-Gizzard-and-the-Lizard-Wizard)
+***
+
+## Deployment
+
+This website was developed in multiple editors, Gitpod and vsCode, and version controlling was utilised via local (git) and online (github) repository technologies.
+
+Deploying this application was achieved through Github pages by:
+
+* Selecting the Repository from my list in the Github Dashboard.
+* Navigating to "Settings" and to the "Github Pages" section.
+* From the "Source" section, click on the dropdown and select "main" branch from the associated list.
+* Once "main" branch is selected, the page will auto-refresh and navigate the user to the top of the page with a visual ribbon display detailing, "Github pages source saved", indicating the success of the deployment.
+* The link to the website can then be found under the "Github Pages" section, with a ribbon notification stating:
+    "Your site is published at "https://<username>.github.io/<repo-name>/"
+
+
+To clone the website:
+
+Select the Repository from the Github Dashboard.
+* Click on the "Clone or download" green button located above and to the right of the "Add file" button.
+* Click on the "clipboard icon" to the right of the Git URL to copy the web URL of the Clone.
+* Open your preferred editor/IDE and navigate to the terminal window.
+* Type `git clone <paste-clone-url-here>` and press "Enter/Return" on your keyboard.
+* This will create a clone of the project for you.
+
+[Back to top](#King-Gizzard-and-the-Lizard-Wizard)
+***
 
 ## Credits
 
@@ -247,3 +288,5 @@ Credits to their music labels:
 - Shock
 - Castle Face
 - Inertia Music
+
+[Back to top](#King-Gizzard-and-the-Lizard-Wizard)
