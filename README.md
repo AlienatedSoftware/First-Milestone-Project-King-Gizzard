@@ -45,8 +45,7 @@ The primarialy requirements for this milestone is to make a static front end web
 
 The ideal users of this website are:
 
-- Passionate music lovers
-- Potentional fans
+- Music lovers / New fans
 - Current fans
 - Event bookers
 
@@ -224,6 +223,40 @@ All copyright credit goes to King Gizzard and their labels. See [credits](#Credi
 Based on the User Stories above, all users will be able to follow the flow of the website to find what they came for according to their stories. However they won't be able to actually fully book a ticket for their tours. This is just a milestone project, not an official website of the band.
 
 Google developer tools was used manually to check and test the live project on all different screen sizes. Used multiple devices and feedback from family & friends who went to the deployed site on their devices.
+
+### Responsive Test
+
+[Chrome Tools](https://youtu.be/-b1dkwYSavE)
+
+### Social Media
+
+[Desktop](https://youtu.be/s6aJVtqM2o0)
+
+[Mobile](https://youtu.be/m3kKLtM9vhg)
+
+### Home Experience
+
+[Desktop](https://youtu.be/AhdYVbZrwH8)
+
+[Mobile](https://youtu.be/wQSGqlUEOqw)
+
+### Listening to Music
+
+[Desktop](https://youtu.be/zhFQT3AE4W0)
+
+[Mobile](https://youtu.be/4QnZZMkFFqM)
+
+### Gizzverse
+
+[Desktop](https://youtu.be/w_z-GrHarUA)
+
+[Mobile](https://youtu.be/9aXlkhZRMHg)
+
+### Ticket Booking Tests
+
+[Desktop](https://youtu.be/PtIggL97ghA)
+
+[Mobile](https://youtu.be/-1oDEGUXSTU)
 
 [Back to top](#King-Gizzard-and-the-Lizard-Wizard)
 ***
